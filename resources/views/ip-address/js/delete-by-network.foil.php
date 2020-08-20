@@ -6,7 +6,7 @@
         let network = $( "#network" ).val();
 
         let html = `<form id="delete-ips" method="POST" action="<?= route( 'ip-address@delete-by-network', [ 'vlanid' => $t->vlan->getId() ] ) ?>">
-                                <div>Do you really want to delete this IP Adresses?</div>
+                                <div>Do you really want to delete this IP address?</div>
                                 <input type="hidden"   name="doDelete" value="1">
                                 <input type="hidden"   name="network"  value="${network}">
                                 <input type="hidden" name="_token" value="<?= csrf_token() ?>">

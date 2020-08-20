@@ -29,7 +29,7 @@ use IXP\Console\Commands\Command as IXPCommand;
 
 
 /**
- * Class Customer2User - tool to migrate the Customer/User datas to customer_to_users table
+ * Class Customer2User - tool to migrate the Customer/User data to customer_to_users table
  *
  * @author      Barry O'Donovan <barry@islandbridgenetworks.ie>
  * @package     IXP\Console\Commands\Upgrade

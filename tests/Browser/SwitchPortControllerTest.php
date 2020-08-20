@@ -36,7 +36,7 @@ use Entities\{
 class SwitchPortControllerTest extends DuskTestCase
 {
     /**
-     * Test the switch port functionnalities (add, edit, delete)
+     * Test the switch port functionality (add, edit, delete)
      *
      * @return void
      *
@@ -131,7 +131,7 @@ class SwitchPortControllerTest extends DuskTestCase
                 $browser->press( "#d2f-list-edit-" . $newSp->getId() )
                     ->assertSee( "Edit Switch" );
 
-                // test that form is filled with all and the correct object informations
+                // test that form is filled with all and the correct object information
                 $browser->assertSelected(   'switchid',     2 )
                         ->assertInputValue( 'name',         "travistest1" )
                         ->assertSelected(   'type',         1 )
@@ -172,7 +172,7 @@ class SwitchPortControllerTest extends DuskTestCase
                 $browser->press( "#d2f-list-edit-" . $newSp->getId() )
                     ->assertSee( "Edit Switch" );
 
-                // test that form is filled with all and the correct object informations
+                // test that form is filled with all and the correct object information
                 $browser->assertSelected(   'switchid',     2 )
                         ->assertInputValue( 'name',         "travistest1" )
                         ->assertSelected(   'type',         1 )
@@ -218,7 +218,7 @@ class SwitchPortControllerTest extends DuskTestCase
                 $this->assertEquals( null,              $newSp->getMauAutoNegAdminState() );
 
 
-                // test that form is filled with all and the correct object informations
+                // test that form is filled with all and the correct object information
                 $browser->assertSelected(   'switchid',     2 )
                         ->assertInputValue( 'name',         "travistest6" )
                         ->assertSelected(   'type',         2 )

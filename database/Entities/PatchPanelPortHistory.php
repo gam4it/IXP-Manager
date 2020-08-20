@@ -376,7 +376,7 @@ class PatchPanelPortHistory
     }
 
     /**
-     * Get assignedAt formated
+     * Get assignedAt formatted
      *
      * @return string
      */
@@ -407,7 +407,7 @@ class PatchPanelPortHistory
     }
 
     /**
-     * Get connectedAt formated
+     * Get connectedAt formatted
      *
      * @return string
      */
@@ -438,7 +438,7 @@ class PatchPanelPortHistory
     }
 
     /**
-     * Get ceaseRequestedAt formated
+     * Get ceaseRequestedAt formatted
      *
      * @return string
      */
@@ -469,7 +469,7 @@ class PatchPanelPortHistory
     }
 
     /**
-     * Get ceasedAt formated
+     * Get ceasedAt formatted
      *
      * @return string
      */

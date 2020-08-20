@@ -184,7 +184,7 @@
 
 
     /**
-     * Send email to request a peering to an other customer
+     * Send email to request a peering to another customer
      */
     function sendPeeringRequest() {
 

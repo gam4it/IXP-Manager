@@ -168,10 +168,10 @@
                 </div>
 
                 <div class="my-auto">
-                    <buttton id="resetSwitchSelect" class="btn btn-white d-flex">
+                    <button id="resetSwitchSelect" class="btn btn-white d-flex">
                         <i class="my-auto fa fa-retweet"></i>
                         &nbsp;Reset
-                    </buttton>
+                    </button>
                 </div>
 
 
@@ -193,10 +193,10 @@
                     </div>
 
                     <div class="my-auto">
-                        <buttton id="resetCustomer" class="btn btn-white d-flex">
+                        <button id="resetCustomer" class="btn btn-white d-flex">
                             <i class="my-auto fa fa-retweet"></i>
                             &nbsp;Reset
-                        </buttton>
+                        </button>
                     </div>
                 </div>
             </div>

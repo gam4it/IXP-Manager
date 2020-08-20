@@ -61,7 +61,7 @@ class UserRememberTokenControllerTest extends DuskTestCase
                     ->assertPathIs( '/admin' );
 
             /**
-             * Check that the remember cookie and DB entry is not existing as we didnt checked the remember me checkbox
+             * Check that the remember cookie and DB entry does not exist as we didn't check the remember me checkbox
              */
             //$browser->assertCookieMissing( $cookieName );
 

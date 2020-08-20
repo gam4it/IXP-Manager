@@ -64,7 +64,7 @@ class SwitchUserController extends Controller
         $user = Auth::getUser();
 
         if( !$nuser->getCustomer() || count( $nuser->getCustomers() ) < 1 ){
-            AlertContainer::push( "This user doesnt have customer associated.", Alert::DANGER );
+            AlertContainer::push( "This user does not have a customer associated with it.", Alert::DANGER );
             return redirect()->to( "/" );
         }
         

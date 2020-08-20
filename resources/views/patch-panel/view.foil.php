@@ -31,7 +31,7 @@
 
             <div class="card">
                 <div class="card-header">
-                    Informations
+                    Information
                 </div>
                 <div class="card-body row">
                     <div class="col-lg-6 col-md-12">

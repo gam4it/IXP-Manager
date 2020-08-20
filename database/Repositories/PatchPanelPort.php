@@ -226,7 +226,7 @@ class PatchPanelPort extends EntityRepository
      * * deletes in the database and on the disk all the files/filesHistory uploaded for this port.
      *
      * @param PatchPanelPortEntity $ppp the patch panel port that will be deleted
-     * @param boolean $includeSlave if the patch panel port has a slave port, do we need to delete the slave port aswell ?
+     * @param boolean $includeSlave if the patch panel port has a slave port, do we need to delete the slave port as well ?
      *
      * @throws \Doctrine\ORM\OptimisticLockException
      */
@@ -349,7 +349,7 @@ class PatchPanelPort extends EntityRepository
     /**
      * Move details / contents of a PPP to another PPP.
      *
-     * Moves the information and files from a patch panel port to an other one
+     * Moves the information and files from a patch panel port to another one
      * (and also move duplex slave if there is one). This function also:
      *
      * * Creates history of the old patch panel port

@@ -77,7 +77,7 @@ class Statistics {
     private $maxIn;
 
     /**
-     * When max packets/bits in occured
+     * When max packets/bits in occurred
      * @var Carbon
      */
     private $maxInAt;
@@ -89,7 +89,7 @@ class Statistics {
     private $maxOut;
 
     /**
-     * When max packets/bits out occured
+     * When max packets/bits out occurred
      * @var Carbon
      */
     private $maxOutAt;
@@ -122,7 +122,7 @@ class Statistics {
     /**
      * Access for the graph object under consideration
      *
-     * Private access as this should be accessed publically
+     * Private access as this should be accessed publicly
      * via the Graph object (where it is also cached).
      *
      * @return array

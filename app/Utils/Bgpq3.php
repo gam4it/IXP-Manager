@@ -145,7 +145,7 @@ class Bgpq3
      * Ececute the BGPQ command line utility using the defined (or default)
      * whois host and sources.
      *
-     * @param string $cmd The query part ot the BGPQ command. I.e. other switches besides -6, -h, -S.
+     * @param string $cmd The query part of the BGPQ command. I.e. other switches besides -6, -h, -S.
      * @param int $proto The protocol. If 6, adds the -6 switch
      * @throws Exception If return code from BGPQ3 is != 0
      * @return string The output from the shell command.

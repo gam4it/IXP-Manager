@@ -458,9 +458,9 @@ class Vlan
     }
 
     /**
-     * Get array off as 112 servers for given protocol
+     * Get array off as112 servers for given protocol
      *
-     * Returns array of servers adddesses or empty array if nothig was fonud.
+     * Returns array of servers addresses or empty array if nothing was found.
      * Return array structure: [ $ix1 => $address1, $ix2 => $address2 ],
      *
      * @param int    $protocol The protocol to check for. One of \Entities\NetInfo::PROTOCOL_IPV constants.
@@ -474,7 +474,7 @@ class Vlan
     /**
      * Get array off route collectors for given protocol
      *
-     * Returns array of route collectors or empty array if nothig was fonud.
+     * Returns array of route collectors or empty array if nothing was found.
      * Return array structure: [ $ix1 => $rcollector1, $ix2 => $rcollector2 ],
      *
      * @param int    $protocol The protocol to check for. One of \Entities\NetInfo::PROTOCOL_IPV constants.
@@ -728,7 +728,7 @@ class Vlan
      *
      * @param string $property The named attribute / preference to check for
      * @param int    $protocol The protocol to check for
-     * @param int    $index If an indexed preference, get a specific index, null means all indexes alowed (default: null)
+     * @param int    $index If an indexed preference, get a specific index, null means all indexes allowed (default: null)
      * @return boolean|array False if no such preference(s) exist, otherwise an array.
      */
     public function getAssocNetInfo( $property, $protocol, $index = null )

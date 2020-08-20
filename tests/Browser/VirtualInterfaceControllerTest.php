@@ -680,7 +680,7 @@ class VirtualInterfaceControllerTest extends DuskTestCase
             ->assertPathIs('/interfaces/vlan/duplicate/' . $vli->getId() . "/to/2" )
             ->assertSee( 'This form allows you to duplicate the selected' );
 
-        // check that the form match with the Vlan interface informations
+        // check that the form matches the Vlan interface information
         $browser->assertSelected('vlan', '2')
             ->assertChecked('mcastenabled')
             ->assertChecked('busyhost')

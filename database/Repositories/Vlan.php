@@ -49,13 +49,13 @@ class Vlan extends EntityRepository
 
     /**
      * Constant to represent normal VLANs only
-     * @var int Constant to represent normal VLANs ony
+     * @var int Constant to represent normal VLANs only
      */
     const TYPE_NORMAL  = 1;
 
     /**
      * Constant to represent private VLANs only
-     * @var int Constant to represent private VLANs ony
+     * @var int Constant to represent private VLANs only
      */
     const TYPE_PRIVATE = 2;
 
@@ -180,7 +180,7 @@ class Vlan extends EntityRepository
     }
 
     /**
-     * Return all active, trafficing and external customers on a given VLAN for a given protocol
+     * Return all active, trafficking and external customers on a given VLAN for a given protocol
      * (indexed by ASN)
      *
      * Here's an example of the return:

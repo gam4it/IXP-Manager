@@ -71,7 +71,7 @@ abstract class UpdateDb
 
 
     /**
-     * Stardard result array
+     * Standard result array
      * @var array
      */
     protected $result = [

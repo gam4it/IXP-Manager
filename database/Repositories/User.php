@@ -602,7 +602,7 @@ class User extends EntityRepository
         // refresh from database
         D2EM::refresh($user);
 
-        // do we actually have any customers afterall this?
+        // do we actually have any customers after all this?
         if( !count( $user->getCustomers() ) ) {
 
             Log::info( 'PeeringDB OAuth: user ' . $user->getId() . '/' . $user->getUsername() . ' has no customers - deleting...' );

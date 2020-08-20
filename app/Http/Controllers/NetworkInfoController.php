@@ -42,7 +42,7 @@ use IXP\Utils\View\Alert\{
 
 
 /**
- * Network Infor Controller
+ * Network Info Controller
  * @author     Barry O'Donovan <barry@islandbridgenetworks.ie>
  * @author     Yann Robin <yann@islandbridgenetworks.ie>
  * @category   Controller

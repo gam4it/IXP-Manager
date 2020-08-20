@@ -212,7 +212,7 @@ class PatchPanelController extends Controller
     }
 
     /**
-     * Display the patch panel informations
+     * Display the patch panel information
      *
      * @param   int $id ID of the patch panel
      *

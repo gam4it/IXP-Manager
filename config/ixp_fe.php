@@ -120,7 +120,7 @@ return [
     |
     | The following options apply:
     |
-    | 1. Entities\User::AUTH_PUBLIC     -> tool is publically available to all
+    | 1. Entities\User::AUTH_PUBLIC     -> tool is publicly available to all
     | 2. Entities\User::AUTH_CUSTUSER   -> tool is available to any logged in user
     | 3. Entities\User::AUTH_SUPERUSER  -> summary and any customer access is restricted to superadmins,
     |                                      logged in users may see their prefixes.

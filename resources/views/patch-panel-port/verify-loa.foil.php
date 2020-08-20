@@ -48,7 +48,7 @@
 
     <div class="card mb-4">
         <div class="card-header">
-            Informations
+            Information
         </div>
         <div class="card-body">
             <table width="100%">

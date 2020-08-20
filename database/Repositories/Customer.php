@@ -65,9 +65,9 @@ class Customer extends EntityRepository
     const DQL_CUST_EXTERNAL = "c.type != 3";
     
     /**
-     * DQL for selecting all trafficing customers
+     * DQL for selecting all trafficking customers
      *
-     * @var string DQL for selecting all trafficing customers
+     * @var string DQL for selecting all trafficking customers
      */
     const DQL_CUST_TRAFFICING = "c.type != 2";
     
@@ -105,17 +105,17 @@ class Customer extends EntityRepository
      * Utility function to provide a array of all active and current customers.
      *
      * @param bool $asArray If `true`, return an associative array, else an array of Customer objects
-     * @param bool $trafficing If `true`, only include trafficing customers (i.e. no associates)
+     * @param bool $trafficking If `true`, only include trafficking customers (i.e. no associates)
      * @param bool $externalOnly If `true`, only include external customers (i.e. no internal types)
      * @param \Entities\IXP $ixp Limit to a specific IXP
      * @return array
      */
-    public function getCurrentActive( $asArray = false, $trafficing = false, $externalOnly = false, $ixp = false )
+    public function getCurrentActive( $asArray = false, $trafficking = false, $externalOnly = false, $ixp = false )
     {
         $dql = "SELECT c FROM \\Entities\\Customer c
                 WHERE " . self::DQL_CUST_CURRENT . " AND " . self::DQL_CUST_ACTIVE;
 
-        if( $trafficing )
+        if( $trafficking )
             $dql .= " AND " . self::DQL_CUST_TRAFFICING . " AND " . self::DQL_CUST_CONNECTED;
         
         if( $externalOnly )
@@ -181,7 +181,7 @@ class Customer extends EntityRepository
     /**
      * Takes an array of \Entities\Customer and filters them for a given infrastructure.
      *
-     * Often used by passing the return fo `getCurrentActive()`
+     * Often used by passing the return for `getCurrentActive()`
      *
      * @param \Entities\Customer[] $customers
      * @param \Entities\Infrastructure $infra
@@ -293,7 +293,7 @@ class Customer extends EntityRepository
     
     /**
      * Return an array of the must recent customers (who are current,
-     * external, active and trafficing).
+     * external, active and trafficking).
      *
      * @return array An array of all customer names with the customer id as the key.
      */

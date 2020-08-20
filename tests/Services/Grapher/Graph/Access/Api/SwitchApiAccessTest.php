@@ -55,7 +55,7 @@ class SwitchApiAccessTest extends Access
     }
 
     /**
-     * Test access restrictions for verious non-public access settings
+     * Test access restrictions for various non-public access settings
      * @return void
      */
     public function testWebNonPublicAccess()

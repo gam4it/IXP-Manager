@@ -67,7 +67,7 @@ class Infrastructure extends EntityRepository
      *
      * @throws \IXP_Exception
      * @param \Entities\IXP $ixp The IXP to find the primary infrastucture for. If null, uses the default IXP with ID 1.
-     * @param bool $throw If true (default) throw an excpetion on database inconsistency (no primary, more that one priamry)
+     * @param bool $throw If true (default) throw an exception on database inconsistency (no primary, more that one priamry)
      * @return \Entities\Infrastructure The primary infrastructure for a given IXP. Or, if `$throw` is false, return false if no primary.
      */
     public function getPrimary( $ixp = null, $throw = true )

@@ -71,14 +71,14 @@ class Location extends EntityRepository
     }
 
     /**
-     * Get all lcoation (or a particular one) for listing on the frontend CRUD
+     * Get all location (or a particular one) for listing on the frontend CRUD
      *
      * @see \IXP\Http\Controller\Doctrine2Frontend
      *
      *
      * @param \stdClass $feParams
      * @param int|null $id
-     * @return array Array of lcoation (as associated arrays) (or single element if `$id` passed)
+     * @return array Array of location (as associated arrays) (or single element if `$id` passed)
      */
     public function getAllForFeList( \stdClass $feParams, int $id = null )
     {

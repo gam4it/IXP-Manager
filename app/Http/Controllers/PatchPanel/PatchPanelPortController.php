@@ -309,7 +309,7 @@ class PatchPanelPortController extends Controller
                 if( D2EM::getRepository( PatchPanelPortEntity::class )->isSwitchPortAvailable( $sp->getId() ) ){
                     $ppp->setSwitchPort($sp);
                 } else {
-                    AlertContainer::push( 'The switch port selected is already used by an other patch panel port.', Alert::DANGER );
+                    AlertContainer::push( 'The switch port selected is already used by another patch panel port.', Alert::DANGER );
                     return Redirect::back()->withInput( $request->all() );
                 }
             }
@@ -739,7 +739,7 @@ class PatchPanelPortController extends Controller
     }
 
     /**
-     * Access to the form that allow to move the informations of a port to an other port
+     * Access to the form that allow to move the information of a port to another port
      *
      * @param  int    $id      The patch panel port
      * @return  View
@@ -759,7 +759,7 @@ class PatchPanelPortController extends Controller
 
 
     /**
-     * Move a patch panel port information to an other
+     * Move a patch panel port information to another
      *
      * @param   MovePatchPanelPortRequest $request instance of the current HTTP request
      * @return  RedirectResponse

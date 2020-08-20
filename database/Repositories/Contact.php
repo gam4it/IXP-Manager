@@ -47,7 +47,7 @@ class Contact extends EntityRepository
      * Gets role names array for contacts.
      *
      * Function gets arrays of role names for contacts by given contacts
-     * id list. Return sturcture:
+     * id list. Return structure:
      * $array = [
      *   contact_id0 => [ name0, name1, ..],
      *   contact_id1 => [ name0, name1, ..],
@@ -83,7 +83,7 @@ class Contact extends EntityRepository
      * Gets group types and names array for contacts.
      *
      * Function gets arrays of group types and names for contacts by given
-     * contacts id list. Return sturcture:
+     * contacts id list. Return structure:
      * $array = [
      *   contact_id0 => [ [ name => name0, type => type0 ], [ name => name1, type => type1 ], ..],
      *   contact_id1 => [ [ name => name0, type => type0 ], [ name => name1, type => type1 ], ..],

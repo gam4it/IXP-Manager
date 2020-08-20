@@ -141,7 +141,7 @@ class CoreBundleController extends Common
      * Set all the data from the request to the core bundle object
      *
      * @param Request                   $request    instance of the current HTTP request
-     * @param CoreBundleEntity          $cb         Core bundle object receiving the datas
+     * @param CoreBundleEntity          $cb         Core bundle object receiving the data
      *
      * @return bool
      */

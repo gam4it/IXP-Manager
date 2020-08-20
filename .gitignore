@@ -61,7 +61,7 @@ ubuntu-*-cloudimg-console.log
 .idea/misc.xml
 
 
-# Let's not accidently add SQL dumps to Git
+# Let's not accidentally add SQL dumps to Git
 /*.sql.bz2
 /*.sql.gz
 /*.sql

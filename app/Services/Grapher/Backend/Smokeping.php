@@ -104,7 +104,7 @@ class Smokeping extends GrapherBackend implements GrapherBackendContract {
 
         /** @var VlanEntity $v */
         if( !isset( $options['vlanid'] ) || !( $v = D2EM::getRepository( VlanEntity::class )->find( $options['vlanid'] ) ) ){
-            return abort( 404, 'No "vlanid" paramater provided or unknown VLAN' );
+            return abort( 404, 'No "vlanid" parameter provided or unknown VLAN' );
         }
 
         if( !isset( $options['protocol'] ) || !in_array( $options['protocol'], Graph::PROTOCOLS_REAL ) ) {

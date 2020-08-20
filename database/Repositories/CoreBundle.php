@@ -78,7 +78,7 @@ class CoreBundle extends EntityRepository
     }
 
     /**
-     * Delete the Core Bundle ans everything related.
+     * Delete the Core Bundle and everything related.
      *
      * @param CoreBundleEntity $cb The Core Bundle Object
      *

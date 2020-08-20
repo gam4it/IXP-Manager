@@ -64,7 +64,7 @@ class OUI
     }
 
     /**
-     * Load the raw OUI data from the specificed location
+     * Load the raw OUI data from the specified location
      *
      * @return OUI An instance of this class for fluent interfaces
      * @throws GeneralException

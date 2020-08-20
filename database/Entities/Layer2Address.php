@@ -81,7 +81,7 @@ class Layer2Address {
     }
 
     /**
-     * Get mac formated with comma (xx:xx:xx:xx:xx:xx)
+     * Get mac formatted with comma (xx:xx:xx:xx:xx:xx)
      *
      * @return string
      */
@@ -91,7 +91,7 @@ class Layer2Address {
     }
 
     /**
-     * Get mac formated (xxxx.xxxx.xxxx)
+     * Get mac formatted (xxxx.xxxx.xxxx)
      *
      * @return string
      */
@@ -101,7 +101,7 @@ class Layer2Address {
     }
 
     /**
-     * Get mac formated (xx-xx-xx-xx-xx-xx)
+     * Get mac formatted (xx-xx-xx-xx-xx-xx)
      *
      * @return string
      */

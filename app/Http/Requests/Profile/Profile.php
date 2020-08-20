@@ -31,7 +31,7 @@ use Illuminate\Validation\Validator;
 
 
 /**
- * Profile Informations Store Request
+ * Profile Information Store Request
  * @author     Barry O'Donovan <barry@islandbridgenetworks.ie>
  * @author     Yann Robin <yann@islandbridgenetworks.ie>
  * @category   Profile

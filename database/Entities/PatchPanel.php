@@ -605,7 +605,7 @@ class PatchPanel
     }
 
     /**
-    * get the value availble port / total port
+    * get the value available port / total port
     *
     *
     * @param  bool $divide if the value need to be divide by 2 (use when some patch panel ports have duplex port)

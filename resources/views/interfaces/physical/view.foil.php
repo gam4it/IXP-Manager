@@ -30,7 +30,7 @@ $this->layout( 'layouts/ixpv4' )
         <div class="card">
             <div class="card-header">
                 <h3>
-                    Informations
+                    Information
                 </h3>
             </div>
             <div class="card-body">

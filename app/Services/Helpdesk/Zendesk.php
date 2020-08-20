@@ -112,7 +112,7 @@ class Zendesk implements HelpdeskContract {
 
 
     /**
-     * Convert a IXP Customer entitiy into an associated array as rerquired by Zendesk's API
+     * Convert a IXP Customer entity into an associated array as rerquired by Zendesk's API
      *
      * @param \Entity\Customer $cust     The IXP Manager customer entity
      * @param bool             $id       If updating, set to Zendesk organisation ID
@@ -177,7 +177,7 @@ class Zendesk implements HelpdeskContract {
         $cust->setNocemail(     isset( $org->organization_fields->noc_email     ) ? $org->organization_fields->noc_email     : null );
         $cust->setShortname(    isset( $org->organization_fields->shortname     ) ? $org->organization_fields->shortname     : null );
 
-        // these throw an exception if we send an unknow value but the source of the data is external here so we ignore:
+        // these throw an exception if we send an unknown value but the source of the data is external here so we ignore:
         try { $cust->setTypeText(   isset( $org->organization_fields->type   ) ? $org->organization_fields->type   : null ); } catch( \IXP\Exceptions\GeneralException $e ) {}
         try { $cust->setStatusText( isset( $org->organization_fields->status ) ? $org->organization_fields->status : null ); } catch( \IXP\Exceptions\GeneralException $e ) {}
 
@@ -308,7 +308,7 @@ class Zendesk implements HelpdeskContract {
     // ********************************************************************************************
 
     /**
-     * Convert a IXP Contact entitiy into an associated array as rerquired by Zendesk's API
+     * Convert a IXP Contact entity into an associated array as rerquired by Zendesk's API
      *
      * @param \Entity\Contact  $contact  The IXP Manager customer entity
      * @param int              $org_id   The Zendesk ID of the organisation

@@ -36,7 +36,7 @@ use Grapher;
  /**
   * Artisan command to generate configuration for graphing
   *
-  * ** Grapher Impementation Dependant! **
+  * ** Grapher Implementation Dependent! **
   *
   * @author     Barry O'Donovan <barry@islandbridgenetworks.ie>
   * @category   Grapher

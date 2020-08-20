@@ -102,7 +102,7 @@ class TrafficDaily extends EntityRepository
      * Delete all entries for a given day
      *
      * @param string $day The day to delete all entries for
-     * @param \Entities\IXP $ixp The IXP to delet entries for (or false)
+     * @param \Entities\IXP $ixp The IXP to delete entries for (or false)
      * @return int The number of entries removed
      */
     public function deleteForDay( $day, $ixp = false  )

@@ -29,7 +29,7 @@ use Auth, Closure;
 use Illuminate\Http\Request;
 
 /**
- * Middleware: Assert an authentcated user is of a given privilege
+ * Middleware: Assert an authenticated user is of a given privilege
  *
  * Check for IXP Manager token credentials with API access requests
  *

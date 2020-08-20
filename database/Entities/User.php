@@ -1126,7 +1126,7 @@ class User implements Authenticatable, CanResetPasswordContract
      * Allow direct access to some properties.
      *
      * Because we use Laravel Doctrine, some Laravel packages will fail as they expect to
-     * be able to access object properties in the same mannor as Eloquent.
+     * be able to access object properties in the same manner as Eloquent.
      *
      * We use this to work around those issues.
      *

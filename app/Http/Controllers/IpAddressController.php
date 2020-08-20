@@ -193,7 +193,7 @@ class IpAddressController extends Controller
      *
      * 1. standard GET request which just displays for form asking for the network range to delete
      * 2. POST with the network range: finds addresses and displays them for confirmation
-     * 3. POST with 'doDelete' parameter: works as (2) but actually deletes the addressess
+     * 3. POST with 'doDelete' parameter: works as (2) but actually deletes the addresses
      *
      * @return View | Redirect
      *

@@ -127,7 +127,7 @@ class Switcher extends EntityRepository
      * Return an array of all switch names where the array key is the switch id
      *
      * @param bool          $active If `true`, return only active switches
-     * @param int           $idLocation  location requiered
+     * @param int           $idLocation  location required
      *
      * @return array An array of all switch names with the switch id as the key.
      */

@@ -99,7 +99,7 @@ class SwitchPort
 
 
     /**
-     * Mappings for OSS_SNMP fucntions to SwitchPort members
+     * Mappings for OSS_SNMP functions to SwitchPort members
      */
     public static $OSS_SNMP_MAU_MAP = [
         'types'             => [ 'fn' => 'MauType',         'xlate' => false ],

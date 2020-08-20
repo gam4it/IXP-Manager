@@ -112,7 +112,7 @@
 
                 <p>
                     Here is an example - if you wanted to add 8 sequential IPv6 addresses starting from <code>2001:db8:32::64</code>, you would enter the
-                    following in the <em>Network</em> inout box above: <code>2001:db8:32::64/125</code>. This would then add the following 8 IP addresses:
+                    following in the <em>Network</em> input box above: <code>2001:db8:32::64/125</code>. This would then add the following 8 IP addresses:
                 </p>
 
                 <pre class="p-2 border">2001:db8:32::64
@@ -142,7 +142,7 @@
 
                 <p>
                     Here is an example - if you wanted to add 8 sequential IPv4 addresses starting from <code>192.0.2.64</code>, you would enter the
-                    following in the <em>Network</em> inout box above: <code>192.0.2.64/29</code>. This would then add the following 8 IP addresses:
+                    following in the <em>Network</em> input box above: <code>192.0.2.64/29</code>. This would then add the following 8 IP addresses:
                 </p>
 
                 <pre class="p-2 border">192.0.2.64

@@ -99,7 +99,7 @@ class Post extends IXPCommand
     {
         return [
             [ 'ver', null, InputOption::VALUE_OPTIONAL,
-                'Schema version to export (defualt: v' . \IXP\Utils\Export\JsonSchema::EUROIX_JSON_LATEST . ')', null ],
+                'Schema version to export (default: v' . \IXP\Utils\Export\JsonSchema::EUROIX_JSON_LATEST . ')', null ],
         ];
     }
 }

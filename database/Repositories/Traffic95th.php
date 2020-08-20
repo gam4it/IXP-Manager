@@ -43,8 +43,8 @@ class Traffic95th extends EntityRepository
      * Function to calculate the 95th percentile for a given data range.
      *
      * @param unknown_type $custid The ID of the customer to calculate for
-     * @param unknown_type $start Start of period to calculcate for (Y-m-d H:i:s)
-         * @param unknown_type $end End of period to calculcate for (Y-m-d H:i:s)
+     * @param unknown_type $start Start of period to calculate for (Y-m-d H:i:s)
+         * @param unknown_type $end End of period to calculate for (Y-m-d H:i:s)
          * @return int The 95th percentile in bits.
      *
     public static function get95thPercentile( $custid, $start, $end )
